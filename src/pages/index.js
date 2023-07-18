@@ -1,5 +1,5 @@
 
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Headder from './components/Headder';
 
 
