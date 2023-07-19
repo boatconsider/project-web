@@ -32,19 +32,19 @@ export default function Headder(){
             <div className="max-[650px] hidden md:flex md:p-0  ">
               <button className="text-[#fff] hover:bg-[#06b6d4] hover:text-[#fff] p-1 mr-2 rounded-md flex items-center outline-none">
                 <AiOutlineHome />
-                Home
+                หน้าหลัก
               </button>
               <button className="text-[#fff] hover:bg-[#06b6d4] hover:text-[#fff] p-1 mr-2 rounded-md flex items-center outline-none">
                 <AiOutlineShoppingCart />
-                Shop
+                ร้านค้า
               </button>
               <button className="text-[#fff] hover:bg-[#06b6d4] hover:text-[#fff] p-1 mr-2 rounded-md flex items-center outline-none">
                 <AiOutlineLogin />
-                Login
+                เข้าสู่ระบบ
               </button>
               <button className="text-[#fff] hover:bg-[#06b6d4] hover:text-[#fff] p-1 mr-2 rounded-md flex items-center outline-none">
                 <AiOutlineLogin />
-                Register
+                สมัครสมาชิก
               </button>
             </div>
           </div>
@@ -54,19 +54,21 @@ export default function Headder(){
         <div className="md:hidden bg-[#fff] w-full h-[200px] flex flex-col justify-center items-center text-center">
           <button className="mt-3 hover:text-[#06b6d4] flex items-center">
         
-            <AiOutlineHome /> Home
+            <AiOutlineHome />
+             หน้าหลัก
           </button>
           <button className="mt-3 hover:text-[#06b6d4] flex items-center">
             <AiOutlineShoppingCart />
-            Shop
+            ร้านค้า
+
           </button>
           <button className="mt-3 hover:text-[#06b6d4] flex items-center">
             <AiOutlineLogin />
-            Login
+            เข้าสู่ระบบ
           </button>
           <button className="mt-3 hover:text-[#06b6d4] flex items-center">
             <AiOutlineLogin />
-            Register
+            สมัครสมาชิก
           </button>
         </div>
       )}
