@@ -19,9 +19,9 @@ export default function Headder(){
     };
     return(
         <div >
-        <div className="grid grid-cols-1 grid-rows-1 bg-gradient-to-r from-cyan-500 to-blue-500 p-5">
+        <div className="grid grid-cols-1 grid-rows-1 bg-gradient-to-r from-cyan-200 to-blue-600 p-5">
         <div className="flex flex-row items-center ml-3 text-[#fff] text-xl justify-between">
-          <div className="flex flex-row items-center cursor-pointer">
+          <div className="flex flex-row items-center cursor-pointer text-blue-500">
             <RiComputerLine />
             <h1 className="pl-1">HardWare</h1>
           </div>
