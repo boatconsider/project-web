@@ -9,6 +9,7 @@ import {
   import {
     RiComputerLine 
   } from "react-icons/ri";
+  import { TbLogin } from "react-icons/tb";
 
 
 export default function Headder(){
@@ -43,7 +44,7 @@ export default function Headder(){
                 เข้าสู่ระบบ
               </button>
               <button className="text-[#fff] hover:bg-[#06b6d4] hover:text-[#fff] p-1 mr-2 rounded-md flex items-center outline-none">
-                <AiOutlineLogin />
+                <TbLogin />
                 สมัครสมาชิก
               </button>
             </div>
@@ -67,7 +68,7 @@ export default function Headder(){
             เข้าสู่ระบบ
           </button>
           <button className="mt-3 hover:text-[#06b6d4] flex items-center">
-            <AiOutlineLogin />
+            <TbLogin />
             สมัครสมาชิก
           </button>
         </div>
