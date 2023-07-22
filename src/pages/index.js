@@ -47,7 +47,7 @@ export default function Home() {
       <h1>ประกัน {item.guarantee}</h1>
           </div>
 <div className="flex justify-center items-center">
-  <button className="w-[150px] h-[50px] rounded-lg bg-blue-500 text-[#fff]">{item.discount}บาท</button>
+  <button className="w-[150px] h-[50px] rounded-lg bg-blue-500 text-[#fff]">{item.discount} บาท</button>
 </div>
         </div>
        
