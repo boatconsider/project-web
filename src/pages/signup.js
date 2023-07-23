@@ -57,7 +57,7 @@ export default function signup() {
     if (!inputs.password || !passwordRegex.test(inputs.password)) {
       setErrors((prevErrors) => ({
         ...prevErrors,
-        password: "กรุณากรอกรหัสผ่านที่ถูกต้อง",
+        password: "กรุณากรอกตัวเลขตัวอักษรภาษาอังกฤษตัวเล็กและตัวใหญ่",
       }));
       return;
     }
@@ -99,12 +99,12 @@ export default function signup() {
         className="flex justify-center w-full h-[100vh] max-[650px] bg-[#fff] bg-cover bg-center"
         style={{
           backgroundImage:
-            "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgT26wF8bOqpvIf270gjib0t7J7aBl8Z3yrVO5XYYWKpsNXl7zleFFiTZ_jGaT8-oPs4&usqp=CAU)",
+            "url(https://wallpaperbat.com/img/192020-minimal-forest-wallpaper-top-free-minimal-forest-background.jpg)",
         }}
       >
         <div className="flex justify-center items-center  ">
           <form onSubmit={handleSubmit}>
-            <div className=" pl-[5rem] pr-[5rem] py-5 max-[650px]:p-3.5 bg-[#fff] border border-none rounded-xl opacity-50">
+            <div className=" pl-[5rem] pr-[5rem] py-5 max-[650px]:p-3.5 bg-[#fff] border border-none rounded-xl opacity-70">
               <div className="text-gray-950 text-center pt-3 text-2xl max-[650px]:w-full">
                 <h1 className="mt-3">สมัครสมาชิก</h1>
                 <div className="mt-[2rem]">

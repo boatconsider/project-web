@@ -78,13 +78,12 @@ export default function login() {
       <div
         className="flex justify-center w-full h-[100vh]  bg-[#fff] bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgT26wF8bOqpvIf270gjib0t7J7aBl8Z3yrVO5XYYWKpsNXl7zleFFiTZ_jGaT8-oPs4&usqp=CAU)",
+          backgroundImage: "url(https://wallpaperaccess.com/full/2289563.jpg)",
         }}
       >
         <div className="flex justify-center items-center  ">
           <form onSubmit={handleSubmit}>
-            <div className="  p-[3rem] bg-[#fff] border border-none rounded-xl opacity-50">
+            <div className="  p-[3rem] bg-[#fff] border border-none rounded-xl opacity-70">
               <div className="text-gray-950 text-center pt-3 text-2xl ">
                 <h1>เข้าสู่ระบบ</h1>
 
